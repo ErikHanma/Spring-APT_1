@@ -1,11 +1,14 @@
 package com.example.firstproject.bbexample.dao;
 
 import com.example.firstproject.bbexample.model.Book;
+import org.springframework.stereotype.Component;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+
+@Component
 
 public class BookDAOBean {
     private final Connection connection;

@@ -18,3 +18,4 @@ insert into books (title, author, date_added)
 values('Братья Карамазовы', 'Ф.М. Достоевский', now() - interval '24h');
 
 select * from books
+
